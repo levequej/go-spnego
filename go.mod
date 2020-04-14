@@ -1,8 +1,9 @@
-module github.com/dpotapov/go-spnego
+module github.com/levequej/go-spnego
 
 go 1.12
 
 require (
+	github.com/alexbrainman/sspi v0.0.0-20180613141037-e580b900e9f5
 	github.com/hashicorp/go-uuid v1.0.1 // indirect
 	github.com/jcmturner/gofork v0.0.0-20190328161633-dc7c13fece03 // indirect
 	golang.org/x/crypto v0.0.0-20190426145343-a29dc8fdc734 // indirect
